@@ -89,7 +89,7 @@
 \def\@sectioncolor#1#2#3{%
   {%
     \color{%
-      richorange%
+      grass%
     } #1#2#3%
   }%
   \stepcounter{colorCounter}%
