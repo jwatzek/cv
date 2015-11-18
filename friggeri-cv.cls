@@ -45,9 +45,13 @@
 \newfontfamily\bodyfont[]{Helvetica Neue}
 \newfontfamily\thinfont[]{Helvetica Neue UltraLight}
 \newfontfamily\headingfont[]{Helvetica Neue Condensed Bold}
+% \newfontfamily\bodyfont[]{Lato}
+% \newfontfamily\thinfont[]{Lato Hairline}
+% \newfontfamily\headingfont[]{Lato Bold}
 
 \defaultfontfeatures{Mapping=tex-text}
 \setmainfont[Mapping=tex-text, Color=textcolor]{Helvetica Neue Light}
+% \setmainfont[Mapping=tex-text, Color=textcolor]{Lato Light}
 
 % \setmathfont{XITS Math}
 
