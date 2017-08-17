@@ -43,6 +43,7 @@
 \RequirePackage[math-style=TeX,vargreek-shape=unicode]{unicode-math}
 
 \newfontfamily\bodyfont[]{Helvetica Neue}
+\newfontfamily\subfont[]{Helvetica Neue Medium}
 \newfontfamily\thinfont[]{Helvetica Neue UltraLight}
 \newfontfamily\headingfont[]{Helvetica Neue Condensed Bold}
 % \newfontfamily\bodyfont[]{Lato}
@@ -136,6 +137,16 @@
     #4\vspace{\parsep}%
   }\\}
 
+
+\newenvironment{entrylist2}{%
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}ll}
+}{%
+  \end{tabular*}
+}
+\newcommand{\entrytwo}[2]{%
+  #1&\parbox[t]{12.2cm}{%
+    \raggedright#2\vspace{\parsep}%
+  }\\}
 
 %%%%%%%%%%%%%%
 % Side block %
