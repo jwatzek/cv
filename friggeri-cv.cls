@@ -127,9 +127,9 @@
 \setlength\LTleft{0pt}
 \setlength\LTright{0pt}
 \setlength\LTpre{6pt}
-\setlength\LTpost{6pt}
-
+\setlength\LTpost{3pt}
 \setlength{\tabcolsep}{0pt}
+
 \newenvironment{entrylist}{%
   \begin{longtable}{@{\extracolsep{\fill}}ll}
 }{%
